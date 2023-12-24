@@ -42,6 +42,6 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugi
 #### 2º Etapa: Executar o arquivo .yml
 No diretório que vc salvou o arquivo .yml execute o comando:
 ```
-docker-compose up
+docker-compose up -d
 ```
 O Docker irá baixar a imagem e criar o container com o RabbitMQ já pré-configurado. Para entender melhor o arquivo yml e outros detalhes segue o [link](https://joaopaulodunder.wordpress.com/2019/03/03/rodando-rabbitmq-usando-docker-compose-com-usuario-fora-do-localhost/)
